@@ -16,6 +16,6 @@ A Website which lists movies and web shows via TMDB Api.
 
 # How to Install and Run
 1. Clone into this website git clone https://github.com/3Rishabh3/movies-listing-site
-2. CD into it cd Project-management
+2. CD into it cd movies-listing-site
 3. Install Dependencies npm install
 4. RUN RUN RUN npm start
