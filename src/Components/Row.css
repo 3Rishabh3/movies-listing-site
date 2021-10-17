@@ -1,0 +1,55 @@
+.row {
+  margin-left: 20px !important;
+  margin-right: 20px !important;
+}
+
+.row_title {
+  color: pink;
+  margin-top: 10px !important;
+}
+
+.row_posters {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: scroll;
+}
+
+.row_posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row_poster {
+  max-height: 200px;
+  margin-right: 10px;
+  transition: transform 450ms;
+}
+
+.row_poster:hover {
+  transform: scale(1.08);
+}
+
+.row_posterLarge {
+  max-height: 250px;
+}
+
+.row_posterLarge:hover {
+  transform: scale(1.09);
+}
+
+.overlayContainer {
+  position: relative;
+}
+
+.text {
+  color: indianred;
+  font-size: 20px;
+  position: absolute;
+  top: -250%;
+  left: 80%;
+}
+
+.overlayBottom {
+  position: absolute;
+  width: 100%;
+  height: 5%;
+}

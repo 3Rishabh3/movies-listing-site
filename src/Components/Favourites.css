@@ -1,0 +1,11 @@
+.favouriteSection {
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: auto;
+  max-height: 28vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.favouriteSection::-webkit-scrollbar {
+  display: none;
+}

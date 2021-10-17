@@ -1,0 +1,21 @@
+.home {
+  background-color: #231d1d;
+  min-height: 91.5vh;
+}
+
+.moviesNavTab {
+  margin-left: 20px !important;
+  margin-right: 10px;
+  margin-top: 20px;
+  padding: 20px;
+}
+
+.moviesNavTab .nav-link {
+  color: whitesmoke;
+  font-weight: 450;
+}
+
+.moviesNavTab .nav-link:hover {
+  color: palevioletred;
+  font-weight: 450;
+}
